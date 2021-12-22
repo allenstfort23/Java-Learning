@@ -16,6 +16,7 @@ public class Main {
         // Arrays
         // To set up arrays
         int[] setOfNumbers1 = new int[5];
+
         // To put values into the array that is declared.
         setOfNumbers1[0] = 1;
         setOfNumbers1[1] = 2;
@@ -28,6 +29,15 @@ public class Main {
 
         // Constants
         final float pi = 3.14F;
+
+        // To use double in equations
+        double result = (double)10 / (double)3;
+
+        //Implicit Casting
+        // byte > short > int > long
+        short x = 1; // short type are 2 bytes.
+        int y = x + 2; // int types are 4 bytes. The result is 3.
+
 
         System.out.println("This is a Multi-dimensional array: " + Arrays.deepToString(setOfNumber3));
         System.out.println("This is the length of the array2: " + setOfNumbers2.length);
